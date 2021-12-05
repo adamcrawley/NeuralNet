@@ -279,6 +279,7 @@ MonoBehaviour:
   _autoNudge: 1
   _autoNudgeThreshold: 50
   _autoNudgeDistance: 5
+  _autoNudgeMaxDistance: 160
 --- !u!4 &331856337
 Transform:
   m_ObjectHideFlags: 0
@@ -1129,8 +1130,8 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 75
-  orthographic: 0
-  orthographic size: 75
+  orthographic: 1
+  orthographic size: 90
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
